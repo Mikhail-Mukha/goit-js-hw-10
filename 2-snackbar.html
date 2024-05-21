@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/vanilla-app-template/commonHelpers2.js"></script>
+  <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/reset-df635d97.js">
+  <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-77e16229.js">
+  <link rel="stylesheet" href="/vanilla-app-template/assets/reset-d3b5fc92.css">
+  <link rel="stylesheet" href="/vanilla-app-template/assets/vendor-7a007824.css">
+  <link rel="stylesheet" href="/vanilla-app-template/assets/2-snackbar-12ee41f0.css">
+</head>
+<body>
+    <form class="form">
+        <label class="form-label">
+          Delay (ms)
+          <input class="input-first" type="number" name="delay" required />
+        </label>
+      
+        <fieldset class="fieldset">
+          <legend>State</legend>
+          <div class="label-container">
+            <label class="fieldset-label">
+                <input width="32px" height="32px" type="radio" name="state" value="fulfilled" required />
+                Fulfilled
+            </label>
+            <label class="fieldset-label">
+                <input width="32px" height="32px" type="radio" name="state" value="rejected" required />
+                Rejected
+            </label>
+          </div>
+          
+        </fieldset>
+      
+        <button type="submit">Create notification</button>
+      </form>
 
+      
+</body>
+</html>
