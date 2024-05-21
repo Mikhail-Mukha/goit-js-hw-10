@@ -10,12 +10,10 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.093em;
+    letter-spacing: 0.04em;
     padding: 8px 118px 8px 16px;
     border-radius: 4px;
     background: #FFF;
-    width: 138px;
-    height: 24px;
 }
 
 #datetime-picker:hover {
@@ -73,7 +71,6 @@ body {
 }
 
 .value {
-    width: 55px;
     color: #2E2F42;
     font-family: Montserrat;
     font-size: 40px;
@@ -90,6 +87,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     text-align: center;
+    letter-spacing: 0.04em;
 }
 
 .field {
